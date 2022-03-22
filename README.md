@@ -1,24 +1,12 @@
-# README
+# Dogs API 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is an alternative practice repo for the [Testing Tools for API Consumption](https://backend.turing.edu/module3/lessons/testing_tools_for_api_consumption) lesson.
 
-Things you may want to cover:
+### Setup Instructions
+- check out the branch `testing_tools_setup`
+- Request a free API key from (https://thedogapi.com/)
+- `bundle`
+- `rails db:{create,migrate}`
+- `bundle exec figaro install`
+- Add API key to `application.yml` as `api_key`
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
