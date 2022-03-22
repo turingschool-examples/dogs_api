@@ -1,0 +1,59 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.thedogapi.com/v1/breeds/search?q=Corgi
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Api-Key:
+      - dog_api_key
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Dns-Prefetch-Control:
+      - 'off'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains
+      X-Download-Options:
+      - noopen
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Vary:
+      - Origin
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Response-Time:
+      - 67ms
+      X-Cloud-Trace-Context:
+      - bb3f6b6377faa93a24d17cea041d55f5;o=1
+      Date:
+      - Tue, 22 Mar 2022 16:43:10 GMT
+      Server:
+      - Google Frontend
+      Content-Length:
+      - '697'
+    body:
+      encoding: UTF-8
+      string: '[{"weight":{"imperial":"25 - 38","metric":"11 - 17"},"height":{"imperial":"10.5
+        - 12.5","metric":"27 - 32"},"id":68,"name":"Cardigan Welsh Corgi","bred_for":"Cattle
+        droving","breed_group":"Herding","life_span":"12 - 14 years","temperament":"Affectionate,
+        Devoted, Alert, Companionable, Intelligent, Active","reference_image_id":"SyXN-e9NX"},{"weight":{"imperial":"25
+        - 30","metric":"11 - 14"},"height":{"imperial":"10 - 12","metric":"25 - 30"},"id":184,"name":"Pembroke
+        Welsh Corgi","bred_for":"Driving stock to market in northern Wales","breed_group":"Herding","life_span":"12
+        - 14 years","temperament":"Tenacious, Outgoing, Friendly, Bold, Playful, Protective","reference_image_id":"rJ6iQeqEm"}]'
+  recorded_at: Tue, 22 Mar 2022 16:43:10 GMT
+recorded_with: VCR 6.1.0

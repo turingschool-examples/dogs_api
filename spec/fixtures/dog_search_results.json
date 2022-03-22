@@ -1,0 +1,36 @@
+[
+    {
+        "weight": {
+            "imperial": "25 - 38",
+            "metric": "11 - 17"
+        },
+        "height": {
+            "imperial": "10.5 - 12.5",
+            "metric": "27 - 32"
+        },
+        "id": 68,
+        "name": "Cardigan Welsh Corgi",
+        "bred_for": "Cattle droving",
+        "breed_group": "Herding",
+        "life_span": "12 - 14 years",
+        "temperament": "Affectionate, Devoted, Alert, Companionable, Intelligent, Active",
+        "reference_image_id": "SyXN-e9NX"
+    },
+    {
+        "weight": {
+            "imperial": "25 - 30",
+            "metric": "11 - 14"
+        },
+        "height": {
+            "imperial": "10 - 12",
+            "metric": "25 - 30"
+        },
+        "id": 184,
+        "name": "Pembroke Welsh Corgi",
+        "bred_for": "Driving stock to market in northern Wales",
+        "breed_group": "Herding",
+        "life_span": "12 - 14 years",
+        "temperament": "Tenacious, Outgoing, Friendly, Bold, Playful, Protective",
+        "reference_image_id": "rJ6iQeqEm"
+    }
+]

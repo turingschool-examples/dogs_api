@@ -1,0 +1,54 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.thedogapi.com/v1/breeds/search?q=Chihuahua
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Api-Key:
+      - dog_api_key
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Dns-Prefetch-Control:
+      - 'off'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains
+      X-Download-Options:
+      - noopen
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Vary:
+      - Origin
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Response-Time:
+      - 70ms
+      X-Cloud-Trace-Context:
+      - 85d8bd8a4b3d45561bcfaec1e1dbe5d2
+      Date:
+      - Tue, 22 Mar 2022 16:49:20 GMT
+      Server:
+      - Google Frontend
+      Content-Length:
+      - '242'
+    body:
+      encoding: UTF-8
+      string: '[{"weight":{"imperial":"6","metric":"3"},"height":{"imperial":"5","metric":"13"},"id":77,"name":"Chihuahua","bred_for":"Companionship","breed_group":"Toy","life_span":"12
+        - 20 years","temperament":"Devoted, Lively, Alert, Quick, Courageous"}]'
+  recorded_at: Tue, 22 Mar 2022 16:49:20 GMT
+recorded_with: VCR 6.1.0
